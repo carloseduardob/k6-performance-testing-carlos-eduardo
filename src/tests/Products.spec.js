@@ -14,7 +14,7 @@ export const options = {
     http_req_duration: ['p(90)<6800'],
     http_req_failed: ['rate<0.25']
   },
-  startVUs: 7,
+  vus: 7,
   stages: [
     { duration: '30s', target: 7 },
     { duration: '40s', target: 30 },
